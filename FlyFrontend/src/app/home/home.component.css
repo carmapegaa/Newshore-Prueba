@@ -1,0 +1,31 @@
+.form-floating {
+    margin-top: 5px; 
+}
+
+.btn {
+    margin-top: 5px; 
+    background-color: salmon;
+    color: white;
+}
+
+#titulo{
+    text-align: center;
+    color:salmon;
+}
+
+#idaVuelta{
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+#soloIda{
+    margin-right: 5px;
+}
+
+#cambioMoneda{
+    margin-left: 0vw;
+}
+
+.campo-igual {
+    background-color: red !important;
+}
