@@ -19,9 +19,14 @@
                     Buscar </button>
             </div>
 
-            <div *ngIf="camposIguales" class="alert alert-danger mt-3" role="alert">
+            <div *ngIf="camposIguales" class="alert alert-danger mt-3" style="text-align: center;" role="alert">
                 <p>Los campos NO deben ser iguales</p>
             </div>
+
+            <div *ngIf="rutaNoEncontrada" class="alert alert-danger mt-3" style="text-align: center;" role="alert">
+                <p>No se encontró ninguna ruta.</p>
+            </div>
+
         </div>
     </div>
 
@@ -49,7 +54,7 @@
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
                                     <div> <b>Origen:</b> {{item.origin}}</div>
-                                    
+
                                     <i class="bi bi-arrow-right" style="font-size: 1rem; color: salmon;"></i>
 
                                     <div> <b>Destino:</b> {{item.destination}}</div>
@@ -81,5 +86,3 @@
                 </div>
             </div>
         </div>
-
-        

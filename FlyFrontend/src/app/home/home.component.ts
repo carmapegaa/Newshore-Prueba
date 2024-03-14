@@ -15,6 +15,7 @@ export class HomeComponent implements OnInit {
   campoOrigen: string = '';
   campoDestino: string = '';
   camposIguales: boolean = false;
+  rutaNoEncontrada: boolean = false;
   data: object = {};
   dataFlight: any[] = [];
   origin: string = '';
@@ -32,8 +33,10 @@ export class HomeComponent implements OnInit {
       this.destination = data.destination;
       this.price = data.price;
       this.dataFlight = data.flights;
+      this.rutaNoEncontrada = this.dataFlight.length === 0;;
+
       console.log(this.data);
-    })
+    });
   }
 
   compararCampo() {
