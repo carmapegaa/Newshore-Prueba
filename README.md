@@ -1,4 +1,4 @@
-## PRUEBA TÉCNICA NEWSHORE AIR
+## FLY AIR
 
 ## BACK-END
 Descripción: El proyecto tiene como propósito brindarle diferente información al usuario sobre vuelos a través de una interfaz web, con la ayuda del consumo de APIs.
